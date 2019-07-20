@@ -1,4 +1,4 @@
-# Paper-Bots.github.io
+# Paper-Bots
 This is a website.
 
-[View my site] (https://Paper-Bots.github.io)
+[View my site] (https://Paper-Bots)
