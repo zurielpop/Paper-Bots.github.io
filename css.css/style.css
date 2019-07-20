@@ -9,6 +9,21 @@ a {
     text-decoration: none;
     color: darkred;
 }
+
+/* GLOBAL */
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
 /* HEADER */
 header {
     background: black;
@@ -25,10 +40,12 @@ header {
     grid-template-columns: 1fr 1fr;
     align-items: center;
 }
+
 /* SITE ID */
 .site-id h1 {
     margin: 0;
 }
+
 /* SITE NAV */
 nav ul {
     display: flex;
@@ -46,6 +63,7 @@ nav a {
     display: block;
     padding: 1em;
 }
+
 /* MAIN */
 main {
     padding: 0 0 3em 0;
@@ -56,6 +74,8 @@ main {
 
 section {
     padding: 3em 1em;
+}
+
 /* FOOTER */
 footer {
     border-top: 1px solid #ddd;
@@ -65,6 +85,7 @@ footer {
 footer nav ul {
     justify-content: center;
 }
+
 /* HERO */
 .hero {
     display: grid;
